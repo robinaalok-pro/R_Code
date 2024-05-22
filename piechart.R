@@ -1,0 +1,5 @@
+x <- c(10,20,30,50)
+labels <- c("India","UK","US","Japan")
+pie(x,labels)
+colors <- c("blue", "red", "yellow", "green")
+pie(x,labels,main = "Country in World",col = colors)
