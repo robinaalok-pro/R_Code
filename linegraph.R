@@ -1,0 +1,16 @@
+#R Line Graph
+v <- c(10,55,22,73,84,65,73,95,88)
+plot(v, type = "l")
+plot(v, type = "p")
+plot(v, type = "b")
+plot(v, type = "o")
+plot(v, type = "s")
+plot(v, type = "h")
+plot(v, type = "o", xlab = "month", ylab = "temperature", col = "red")
+ #Two Line Graph
+w <- c(20,28,26,19,20,31,39,49,37)
+x <- c(30,25,22,25,24,35,33,45,38)
+y <- c(27,20,31,36,32,20,26,40,29)
+plot(w, type = "o", xlab = "month", ylab = "temperature", col = "red")
+lines(x, col = "green")
+lines(y, col = "blue")
